@@ -200,7 +200,8 @@ With same experiment setting, the result is reported below:
 
 We provided trained models/logs/performance in google driver.
 ##### Baseline + BA
-!()[https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition/blob/master/experiments/figures/BA_fine_tune_performance.png]
+
+![BA_fine_tune_performance.png](https://i.loli.net/2020/07/04/V1YzdPhxjJARnKS.png)
 
 [performance](https://drive.google.com/file/d/13O7JpIGYxspgOsJTCKLh37ZeKR2slPgz/view?usp=sharing);
 
@@ -209,7 +210,8 @@ We provided trained models/logs/performance in google driver.
 [logs](https://drive.google.com/file/d/1K1_U692NZq5F53DDPDkpw7JFiEqIqole/view?usp=sharing)
 
 ##### Baseline + BA + Temporal Discriminative
-!()[https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition/blob/master/experiments/figures/TCA_ins_fine_tune_performance.png]
+
+![wo_TCA_fine_tune_performance.png](https://i.loli.net/2020/07/04/ZYkEIRcMqxzD6AX.png)
 
 [performance](https://drive.google.com/file/d/1ZHUhFsHoyyIWTnoDB1XEG2WBJLgxTtA9/view?usp=sharing);
 
@@ -218,7 +220,8 @@ We provided trained models/logs/performance in google driver.
 [logs](https://drive.google.com/file/d/13vfdQusv2Gd42nYXe4p1nWEByIJ9cLoz/view?usp=sharing)
 
 ##### Baseline + BA + Temporal Discriminative + TCA
-!()[https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition/blob/master/experiments/figures/VTDL_fine_tune_performance.png]
+
+![VTDL_fine_tune_performance.png](https://i.loli.net/2020/07/04/14TlPxKcvOyLguM.png)
 
 [performance](https://drive.google.com/file/d/16GL88PLLOpLoO_yWjK2XcYPKKnqRBtcr/view?usp=sharing);
 
