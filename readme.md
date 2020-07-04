@@ -201,17 +201,30 @@ With same experiment setting, the result is reported below:
 We provided trained models/logs/performance in google driver.
 ##### Baseline + BA
 !()[https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition/blob/master/experiments/figures/BA_fine_tune_performance.png]
-[performance](https://drive.google.com/file/d/13O7JpIGYxspgOsJTCKLh37ZeKR2slPgz/view?usp=sharing)[trained_model](https://drive.google.com/file/d/10J5fKKkDF58njdsLGXkknk0RWkaINJ31/view?usp=sharing), [logs](https://drive.google.com/file/d/1K1_U692NZq5F53DDPDkpw7JFiEqIqole/view?usp=sharing)
+
+[performance](https://drive.google.com/file/d/13O7JpIGYxspgOsJTCKLh37ZeKR2slPgz/view?usp=sharing);
+
+[trained_model](https://drive.google.com/file/d/10J5fKKkDF58njdsLGXkknk0RWkaINJ31/view?usp=sharing); 
+
+[logs](https://drive.google.com/file/d/1K1_U692NZq5F53DDPDkpw7JFiEqIqole/view?usp=sharing)
 
 ##### Baseline + BA + Temporal Discriminative
 !()[https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition/blob/master/experiments/figures/TCA_ins_fine_tune_performance.png]
 
-[performance](https://drive.google.com/file/d/1ZHUhFsHoyyIWTnoDB1XEG2WBJLgxTtA9/view?usp=sharing)[trained_model](https://drive.google.com/file/d/1HJQwzRwNs5nOseAnPW87iDpUMXOs78a8/view?usp=sharing), [logs](https://drive.google.com/file/d/13vfdQusv2Gd42nYXe4p1nWEByIJ9cLoz/view?usp=sharing)
+[performance](https://drive.google.com/file/d/1ZHUhFsHoyyIWTnoDB1XEG2WBJLgxTtA9/view?usp=sharing);
+
+[trained_model](https://drive.google.com/file/d/1HJQwzRwNs5nOseAnPW87iDpUMXOs78a8/view?usp=sharing);
+
+[logs](https://drive.google.com/file/d/13vfdQusv2Gd42nYXe4p1nWEByIJ9cLoz/view?usp=sharing)
 
 ##### Baseline + BA + Temporal Discriminative + TCA
 !()[https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition/blob/master/experiments/figures/VTDL_fine_tune_performance.png]
 
-[performance](https://drive.google.com/file/d/16GL88PLLOpLoO_yWjK2XcYPKKnqRBtcr/view?usp=sharing)[trained_model](https://drive.google.com/file/d/1TdxIBrdLcgKabL5A_FusomWLe4oXDcDK/view?usp=sharing), [logs](https://drive.google.com/file/d/1Q-tq9bf-J8caHxJJDMlXo4KX5cNJ_75w/view?usp=sharing)
+[performance](https://drive.google.com/file/d/16GL88PLLOpLoO_yWjK2XcYPKKnqRBtcr/view?usp=sharing);
+
+[trained_model](https://drive.google.com/file/d/1TdxIBrdLcgKabL5A_FusomWLe4oXDcDK/view?usp=sharing);
+
+[logs](https://drive.google.com/file/d/1Q-tq9bf-J8caHxJJDMlXo4KX5cNJ_75w/view?usp=sharing)
 
 The result is report with single video clip. In the test, we will average ten clips as final predictions. Will lead to around 2-3% improvement.
 ```bash
