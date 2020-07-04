@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72b403b2-bb94-4cd4-83f6-d80b0c623c11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/self-supervised learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_classInd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_flow_train_split_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_flow_train_split_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_flow_train_split_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_flow_val_split_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_flow_val_split_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_flow_val_split_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_rgb_train_cluster_split_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_rgb_train_split_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_rgb_train_split_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_rgb_train_split_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_rgb_val_split_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_rgb_val_split_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/hmdb51/hmdb51_rgb_val_split_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/kinetics-400/ssd_kinetics_video_trainlist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/kinetics-400/ssd_kinetics_video_trainlist_1of10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/kinetics-400/ssd_kinetics_video_vallist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/classInd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_flow_train_split_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_flow_train_split_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_flow_train_split_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_flow_val_split_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_flow_val_split_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_flow_val_split_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_rgb_train_cluster_split_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_rgb_train_split_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_rgb_train_split_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_rgb_train_split_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_rgb_val_split_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_rgb_val_split_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_rgb_val_split_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_to_kinetics_count.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/lists/ucf101/ucf101_triplet_similar_rgb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/figures/BA_fine_tune_performance.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/figures/TCA_ins_fine_tune_performance.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/figures/VTDL_fine_tune_performance.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NCE/Link.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NCE/NCEAverage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NCE/NCECriterion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NCE/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NCE/alias_multinomial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PSEUDO/clustering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/basic_augmentation/eda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/basic_augmentation/mixup_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/basic_augmentation/net_mixup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/basic_augmentation/noise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/basic_augmentation/rotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/basic_augmentation/temporal_augment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/basic_augmentation/temporal_dropout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/basic_augmentation/temporal_shuffle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/basic_augmentation/temporal_sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/basic_augmentation/triplet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/basic_augmentation/video_color_jitter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/gen_negative.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/gen_positive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/video_transformations/functional.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/video_transformations/video_transform_PIL_or_np.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/video_transformations/videotransforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TC/video_transformations/volume_transforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/dataloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/decode_on_the_fly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/on_the_fly_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/video_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/feature_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/MoCo_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/NCEAverage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/NCECriterion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/batch_NCE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/batch_flip_cls_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/batch_triplet_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/contrastiveLoss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/inverse_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/mutual_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/net_mixup_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/temporal_consistency_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/temporal_sampling_rate_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loss/triplet_loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/c3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/hr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/i3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/mutual_net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/r2p1d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/r3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/triplet_net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/option.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/TemporalDis/hmdb51.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/TemporalDis/kinetics.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/TemporalDis/ucf101.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/TemporalDis/ucf101_r2p1d.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/TemporalDis/ucf101_r3d.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/evaluation/hmdb51_i3d_eval.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/evaluation/ucf101_i3d_eval.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/feature_extract/hmdb51_extract.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/all_benchmark.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/all_pt_and_ft_flip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_benchmark.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_ft_flip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_ft_flip_cls.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_ft_temporal_consistency.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_ft_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_ft_triplet.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_pt_and_ft_MoCo_ucf101_pretrain.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_pt_and_ft_TSC.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_pt_and_ft_flip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_pt_and_ft_flip_cls.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_pt_and_ft_flip_cls_mutual_loss.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_pt_and_ft_instance_discriminative.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_pt_and_ft_net_mixup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_pt_and_ft_temporal_consistency.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_pt_and_ft_triplet.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/i3d_pt_flip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/r2p1d_pt_and_ft_flip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hmdb51/r3d_pt_and_ft_flip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/ucf101/all_benchmark.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/ucf101/all_pt_and_ft_flip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/ucf101/c3d_pt_and_ft_flip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/ucf101/i3d_ft_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/ucf101/i3d_pt_and_ft_flip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/ucf101/r2p1d_pt_and_ft_flip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/ucf101/r3d_pt_and_ft_flip.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/visualization/ucf101_triplet_visualize.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sequence_mutual_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/train_temporal_dis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/triplet_visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/bk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/checkpoint_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/data_process/gen_sub_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/gradient_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/learning_rate_adjust.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/load_weights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/moment_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/video_io_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/visualization/color_palettes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/visualization/confusion_matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/visualization/mixup_visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/visualization/plot_class_distribution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/visualization/t_SNE_Visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/visualization/triplet_visualization.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="254">
+                <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TC/basic_augmentation/mixup_methods.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="62" selection-start-line="62" selection-end-line="120" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/scripts/TemporalDis/hmdb51.sh" />
+        <option value="$PROJECT_DIR$/src/scripts/TemporalDis/kinetics.sh" />
+        <option value="$PROJECT_DIR$/src/scripts/TemporalDis/ucf101.sh" />
+        <option value="$PROJECT_DIR$/src/scripts/TemporalDis/ucf101_r2p1d.sh" />
+        <option value="$PROJECT_DIR$/src/scripts/TemporalDis/ucf101_r3d.sh" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="2" />
+    <option name="width" value="1932" />
+    <option name="height" value="1046" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="self-supervised learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-supervised learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-supervised learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-supervised learning" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a9637\Desktop\self-supervised learning\experiments\figures" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72b403b2-bb94-4cd4-83f6-d80b0c623c11" name="Default Changelist" comment="" />
+      <created>1593833315459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593833315459</updated>
+      <workItem from="1593833330311" duration="7521000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7521000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2887377" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.40583554" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32980132" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/scripts/TemporalDis/hmdb51.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/TemporalDis/kinetics.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/TemporalDis/ucf101.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/TemporalDis/ucf101_r2p1d.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/TemporalDis/ucf101_r3d.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/evaluation/hmdb51_i3d_eval.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TC/basic_augmentation/mixup_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="62" selection-start-line="62" selection-end-line="120" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="254">
+            <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
