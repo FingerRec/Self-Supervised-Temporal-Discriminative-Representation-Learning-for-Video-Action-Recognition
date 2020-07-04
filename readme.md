@@ -10,6 +10,8 @@ self-supervised learning method in video action recognition, even achieve better
 when a small-scale video dataset (with only thousands of videos) is
 used for pre-training! The manuscript will be upload recently!
 
+![sample_acc.png](https://i.loli.net/2020/07/04/WENzTnSv8f6cLyR.png)
+
 ### Requirements
 - Python3
 - pytorch1.1+
