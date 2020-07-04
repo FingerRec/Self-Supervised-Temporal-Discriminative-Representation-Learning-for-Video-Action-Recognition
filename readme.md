@@ -186,6 +186,9 @@ python main.py \
 
 ## Results
 ### Step2:Transfer
+
+With same experiment setting, the result is reported below:
+
 |  Method   | UCF101  | HMDB51 |
 |  ----  | ----  | ---- |
 | Baseline  | 60.3 | 22.6| 
@@ -195,16 +198,15 @@ python main.py \
 
 #### trained models/logs/performance
 ##### Baseline + BA
-!()[https://github.com/FingerRec/3DNet_Visualization/raw/master/experiments/figures/BA_fine_tune_performance.pdf]
-
+!()[https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition/blob/master/experiments/figures/BA_fine_tune_performance.png]
 [trained_model](https://drive.google.com/file/d/10J5fKKkDF58njdsLGXkknk0RWkaINJ31/view?usp=sharing), [logs](https://drive.google.com/file/d/1K1_U692NZq5F53DDPDkpw7JFiEqIqole/view?usp=sharing)
 ##### Baseline + BA + Temporal Discriminative
-!()[https://github.com/FingerRec/3DNet_Visualization/raw/master/experiments/figures/TCA_ins_fine_tune_performance.pdf]
+!()[https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition/blob/master/experiments/figures/TCA_ins_fine_tune_performance.png]
 
 [trained_model](https://drive.google.com/file/d/1HJQwzRwNs5nOseAnPW87iDpUMXOs78a8/view?usp=sharing), [logs](https://drive.google.com/file/d/13vfdQusv2Gd42nYXe4p1nWEByIJ9cLoz/view?usp=sharing)
 
 ##### Baseline + BA + Temporal Discriminative + TCA
-!()[https://github.com/FingerRec/3DNet_Visualization/raw/master/experiments/figures/VTDL_fine_tune_performance.pdf]
+!()[https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition/blob/master/experiments/figures/VTDL_fine_tune_performance.png]
 
 [trained_model](https://drive.google.com/file/d/1TdxIBrdLcgKabL5A_FusomWLe4oXDcDK/view?usp=sharing), [logs](https://drive.google.com/file/d/1Q-tq9bf-J8caHxJJDMlXo4KX5cNJ_75w/view?usp=sharing)
 
