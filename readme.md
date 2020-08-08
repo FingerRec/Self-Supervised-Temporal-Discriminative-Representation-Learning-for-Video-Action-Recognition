@@ -1,14 +1,14 @@
 # Self-Supervised Temporal-Discriminative Representation Learning
 
 The source code for our paper "Self-Supervised Temporal-Discriminative Representation
-Learning for Video Action Recognition"
+Learning for Video Action Recognition" [paper](https://arxiv.org/abs/2008.02129)
 
 ## Overview
 
 > Our self-supervised VTDL signifcantly outperforms existing
 self-supervised learning method in video action recognition, even achieve better result than fully-supervised methods on UCF101 and HMDB51
 when a small-scale video dataset (with only thousands of videos) is
-used for pre-training! The manuscript will be upload recently!
+used for pre-training!
 
 ![sample_acc.png](https://i.loli.net/2020/07/04/WENzTnSv8f6cLyR.png)
 
@@ -165,7 +165,7 @@ python main.py \
 --gpus 2 \
 --logs_path ../experiments/logs/hmdb51_i3d_ft \
 --print-freq 100 \
---weights ../experiments/MoCo/hmdb51/models/04-16-2328_aug_CJ/ckpt_epoch_48.pth
+--weights ../experiments/TemporalDis/hmdb51/models/04-16-2328_aug_CJ/ckpt_epoch_48.pth
 ```
 #### UCF101
 ```bash
@@ -187,7 +187,7 @@ python main.py \
 --gpus 2 \
 --logs_path ../experiments/logs/ucf101_i3d_ft \
 --print-freq 100 \
---weights ../experiments/MoCo/ucf101/models/04-18-2208_aug_CJ/ckpt_epoch_45.pth
+--weights ../experiments/TemporalDis/ucf101/models/04-18-2208_aug_CJ/ckpt_epoch_45.pth
 ```
 **Notice: More Training Options and ablation study Can be find in scripts**
 
@@ -224,7 +224,7 @@ We provided trained models/logs/performance in google driver.
 
 [trained_model](https://drive.google.com/file/d/1HJQwzRwNs5nOseAnPW87iDpUMXOs78a8/view?usp=sharing);
 
-[logs](https://drive.google.com/file/d/13vfdQusv2Gd42nYXe4p1nWEByIJ9cLoz/view?usp=sharing)
+[logs](https://drive.google.com/file/d/1Q-tq9bf-J8caHxJJDMlXo4KX5cNJ_75w/view?usp=sharing)
 
 ##### Baseline + BA + Temporal Discriminative + TCA
 
@@ -234,7 +234,8 @@ We provided trained models/logs/performance in google driver.
 
 [trained_model](https://drive.google.com/file/d/1TdxIBrdLcgKabL5A_FusomWLe4oXDcDK/view?usp=sharing);
 
-[logs](https://drive.google.com/file/d/1Q-tq9bf-J8caHxJJDMlXo4KX5cNJ_75w/view?usp=sharing)
+[logs](https://drive.google.com/file/d/13vfdQusv2Gd42nYXe4p1nWEByIJ9cLoz/view?usp=sharing)
+
 
 The result is report with single video clip. In the test, we will average ten clips as final predictions. Will lead to around 2-3% improvement.
 ```bash
@@ -250,6 +251,20 @@ python feature_extractor.py
 
 
 The feature will be saved as a single numpy file in the format [video_nums,features_dim]
+
+
+## Citation
+
+Please cite our paper if you find this code useful for your research.
+
+```
+@Article{wang2020self,
+  author  = {Jinpeng Wang and Yiqi Lin and Andy J. Ma and Pong C. Yuen},
+  title   = {Self-supervised Temporal Discriminative Learning for Video Representation Learning},
+  journal = {arXiv preprint arXiv:2008.02129},
+  year    = {2020},
+}
+```
 
 
 ## Others
