@@ -1,7 +1,13 @@
 # Self-Supervised Temporal-Discriminative Representation Learning
 
-The source code for our paper "Self-Supervised Temporal-Discriminative Representation
+The source code for our paper 
+
+"Self-Supervised Temporal-Discriminative Representation
 Learning for Video Action Recognition" [paper](https://arxiv.org/abs/2008.02129)
+
+and
+
+"Self-supervised learning using consistency regularization of spatio-temporal data augmentation for action recognition" [paper](https://arxiv.org/abs/2008.02086)
 
 ## Overview
 
@@ -51,9 +57,41 @@ The split of hmdb51/ucf101/kinetics-400 can be download from
 Each item include
 > video_path class frames_num
 
-## TCA
+## Spatio-temporal Transformation
 
-The TCA can be implment with fully matrix operation, and can be extend to any video-based self-supervised learning method.
+```python
+flip_type = flip_type // 4
+rot_type = flip_type % 4
+# flip at first
+for i in range(B):
+    if flip_type[i] == 0:
+        rotated_data[i] = l_new_data[i]
+    elif flip_type[i] == 1:  # left-right flip
+        rotated_data[i] = l_new_data[i].flip(3)
+    elif flip_type[i] == 2:  # temporal flip
+        rotated_data[i] = l_new_data[i].flip(1)
+    else:  # left-right + temporal flip
+        rotated_data[i] = l_new_data[i].flip(3).flip(1)
+# then rotation
+for i in range(B):
+    if rot_type[i] == 0:
+        rotated_data[i] = l_new_data[i]
+    elif rot_type[i] == 1:  # 90 degree
+        rotated_data[i] = l_new_data[i].transpose(2, 3).flip(2)
+    elif rot_type[i] == 2:  # 180 degree
+        rotated_data[i] = l_new_data[i].flip(2).flip(3)
+    else:  # 270 degree
+        rotated_data[i] = l_new_data[i].transpose(2, 3).flip(3)
+
+```
+Please refer to TC/basic_augmentation/rotation for details.
+
+## TCA/[Intra-video Mixup]
+
+
+
+The TCA/[Intra-video Mixup] can be implment with fully matrix operation, and can be extend to any video-based self-supervised learning method.
+
 ```python
 class SpatialMixup(object):
     def __init__(self, alpha, trace=True, version=2):
@@ -259,6 +297,12 @@ Please cite our paper if you find this code useful for your research.
 
 ```
 @Article{wang2020self,
+  author  = {Jinpeng Wang and Yiqi Lin and Andy J. Ma},
+  title   = {Self-supervised learning using consistency regularization of spatio-temporal data augmentation for action recognition},
+  journal = {arXiv preprint arXiv:2008.02129},
+  year    = {2020},
+}
+@Article{wang2020self2,
   author  = {Jinpeng Wang and Yiqi Lin and Andy J. Ma and Pong C. Yuen},
   title   = {Self-supervised Temporal Discriminative Learning for Video Representation Learning},
   journal = {arXiv preprint arXiv:2008.02129},

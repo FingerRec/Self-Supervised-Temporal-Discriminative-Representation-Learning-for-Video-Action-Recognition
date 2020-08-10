@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="286">
-                <caret line="260" column="17" selection-start-line="260" selection-start-column="17" selection-end-line="260" selection-end-column="17" />
+              <first_editor relative-caret-position="316">
+                <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
               </first_editor>
               <second_editor />
             </state>
@@ -26,10 +26,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TC/basic_augmentation/rotation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="102" selection-start-line="102" selection-end-line="145" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#3616#4981#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/train_temporal_dis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16893">
-              <caret line="675" lean-forward="true" selection-start-line="675" selection-end-line="675" />
+            <state relative-caret-position="19290">
+              <caret line="675" selection-start-line="675" selection-end-line="675" />
             </state>
           </provider>
         </entry>
@@ -73,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="2764" />
     <option name="height" value="1772" />
   </component>
@@ -83,6 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,11 +119,23 @@
               <item name="self-supervised learning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="self-supervised learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-supervised learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="self-supervised learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-supervised learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TC" type="462c0819:PsiDirectoryNode" />
+              <item name="basic_augmentation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,18 +172,19 @@
       <updated>1593833315459</updated>
       <workItem from="1593833330311" duration="11929000" />
       <workItem from="1596783318070" duration="218000" />
-      <workItem from="1596846359476" duration="746000" />
+      <workItem from="1596846359476" duration="1425000" />
+      <workItem from="1597029623971" duration="472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12893000" />
+    <option name="totallyTimeSpent" value="14044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19803476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2010582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -223,6 +250,13 @@
     <entry file="file://$PROJECT_DIR$/src/scripts/evaluation/hmdb51_i3d_eval.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/train_temporal_dis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19290">
+          <caret line="675" selection-start-line="675" selection-end-line="675" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -240,18 +274,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/train_temporal_dis.py">
+    <entry file="file://$PROJECT_DIR$/src/TC/basic_augmentation/rotation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16893">
-          <caret line="675" lean-forward="true" selection-start-line="675" selection-end-line="675" />
+        <state relative-caret-position="246">
+          <caret line="102" selection-start-line="102" selection-end-line="145" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#3616#4981#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="286">
-            <caret line="260" column="17" selection-start-line="260" selection-start-column="17" selection-end-line="260" selection-end-column="17" />
+          <first_editor relative-caret-position="316">
+            <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
           </first_editor>
           <second_editor />
         </state>
