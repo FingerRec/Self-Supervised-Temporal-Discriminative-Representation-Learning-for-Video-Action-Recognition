@@ -299,7 +299,7 @@ Please cite our paper if you find this code useful for your research.
 @Article{wang2020self,
   author  = {Jinpeng Wang and Yiqi Lin and Andy J. Ma},
   title   = {Self-supervised learning using consistency regularization of spatio-temporal data augmentation for action recognition},
-  journal = {arXiv preprint arXiv:2008.02129},
+  journal = {arXiv preprint arXiv:2008.02086},
   year    = {2020},
 }
 @Article{wang2020self2,
