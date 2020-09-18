@@ -266,6 +266,23 @@ We provided trained models/logs/performance in google driver.
 
 ##### Baseline + BA + Temporal Discriminative + TCA
 
+**(a). Pretrain**
+
+Loss curve:
+
+![loss.png](https://i.loli.net/2020/09/18/4dMhnxJtjupE1QH.png)
+
+Ins Prob:
+
+![prob.png](https://i.loli.net/2020/09/18/4QIj5PZR1pi3rXn.png)
+
+[pretrained_weight](https://drive.google.com/file/d/1g1reGkcD2xwztzwfGRPLzz0JMOP3yo7a/view?usp=sharing)
+
+This pretrained model can achieve 52.7% on HMDB51.
+
+**(b). Finetune**
+
+
 ![VTDL_fine_tune_performance.png](https://i.loli.net/2020/07/04/14TlPxKcvOyLguM.png)
 
 [performance](https://drive.google.com/file/d/16GL88PLLOpLoO_yWjK2XcYPKKnqRBtcr/view?usp=sharing);

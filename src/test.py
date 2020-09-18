@@ -24,7 +24,6 @@ def get_action_index(list_txt='data/classInd.txt'):
         action_label.append(action)
     return action_label
 
-
 def plot_matrix_test(list_txt, cfu_mat="../experiments/evaluation/ucf101/_confusion.npy"):
     classes = get_action_index(list_txt)
     confuse_matrix = np.load(cfu_mat)
