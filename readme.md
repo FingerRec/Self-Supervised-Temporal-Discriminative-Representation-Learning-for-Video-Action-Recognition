@@ -7,6 +7,10 @@ Learning for Video Action Recognition" [paper](https://arxiv.org/abs/2008.02129)
 
 ## Overview
 
+**Without one label available, our method learn to focus on motion region powerful!**
+
+![example](https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition/raw/master/resources/example.gif)
+
 > Our self-supervised VTDL signifcantly outperforms existing
 self-supervised learning method in video action recognition, even achieve better result than fully-supervised methods on UCF101 and HMDB51
 when a small-scale video dataset (with only thousands of videos) is

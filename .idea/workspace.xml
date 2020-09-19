@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b403b2-bb94-4cd4-83f6-d80b0c623c11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consistency_regularization.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/example.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,24 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="61">
-                <caret line="214" column="21" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
+              <first_editor relative-caret-position="345">
+                <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consistency_regularization.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <first_editor relative-caret-position="90">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
                 <folding>
                   <element signature="e#1100#1126#0" />
                 </folding>
@@ -144,8 +145,8 @@
         <option value="$PROJECT_DIR$/src/test.py" />
         <option value="$PROJECT_DIR$/dataset.md" />
         <option value="$PROJECT_DIR$/TCA.md" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/consistency_regularization.md" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -170,6 +171,11 @@
               <item name="self-supervised learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="self-supervised learning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="self-supervised learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="self-supervised learning" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -186,6 +192,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a9637\Desktop\代码相关\self-supervised learning\resources" />
       <recent name="C:\Users\a9637\Desktop\self-supervised learning\experiments\figures" />
     </key>
   </component>
@@ -247,12 +254,12 @@
       <workItem from="1598927789494" duration="8701000" />
       <workItem from="1599099441628" duration="735000" />
       <workItem from="1599100909039" duration="1495000" />
-      <workItem from="1600418471480" duration="2102000" />
+      <workItem from="1600418471480" duration="2965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35029000" />
+    <option name="totallyTimeSpent" value="35892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
@@ -403,24 +410,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/consistency_regularization.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="61">
-            <caret line="214" column="21" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
+          <first_editor relative-caret-position="90">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <folding>
+              <element signature="e#1100#1126#0" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consistency_regularization.md">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            <folding>
-              <element signature="e#1100#1126#0" />
-            </folding>
+          <first_editor relative-caret-position="345">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           </first_editor>
           <second_editor />
         </state>
