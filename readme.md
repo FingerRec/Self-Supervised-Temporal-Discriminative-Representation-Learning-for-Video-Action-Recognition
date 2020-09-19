@@ -50,7 +50,7 @@ used for pre-training!
     - option.py
 ## Dataset
 
-Prepare dataset in txt file, and each row of txt is as below:
+Look [dataset.md](https://github.com/FingerRec/Self-Supervised-Temporal-Discriminative-Representation-Learning-for-Video-Action-Recognition/blob/master/dataset.md). Prepare dataset in txt file, and each row of txt is as below:
 The split of hmdb51/ucf101/kinetics-400 can be download from 
 [google driver](https://drive.google.com/drive/folders/1gOOOlBJtH1p2weC-k7TD3HcC2HSHBryw?usp=sharing).
 
